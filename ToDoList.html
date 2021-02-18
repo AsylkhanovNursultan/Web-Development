@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ToDoList</title>
+  <style>
+    body{
+      font-family: Helvetica, Arial, sans-serif;
+    }
+    #black-background{
+      background: black;
+      color: gray;
+      height: 60px;
+      font-weight: 17;
+    }
+    h2{
+      margin-left: 50px;
+      padding-top: 14px;
+    }
+    h1{
+      margin-top: 50px;
+      margin-left: 350px;
+    }
+    #new-task{
+      height: 37px;
+      width: 540px;
+      margin-left: 420px;
+      border-radius: 5px;
+      border:1px solid lightgray;
+      font-size: 16px;
+    }
+    #add{
+      height: 43px;
+      width: 70px;
+      margin-left: 20px;
+      background: #0067b8;
+      color: #e6e6e6;
+      border-radius: 5px;
+      border:1px solid lightgray;
+      font-size: 16px;
+    }
+    p{
+      color: #1c1e21;
+      height: 80px;
+      margin-left: 350px;
+      width: 770px;
+
+      border:1px solid lightgray;
+      font-weight: 15;
+    }
+    .checkboxes{
+      margin-top: 32px;
+      margin-left: 20px;
+      border-radius: 5px;
+      border:1px solid lightgray;
+      font-size: 16px;
+      width: 20px;
+    }
+    #first-item{
+      position: absolute;
+      margin-top: 60px;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+    }
+    #second-item{
+      position: absolute;
+      margin-top: 141px;
+    }
+    #third-item{
+      position: absolute;
+      margin-top: 222px;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+<div id="black-background">
+
+  <h2>ToDo List</h2>
+</div>
+<h1>ToDo List</h1>
+<input type="text" placeholder="New Task" id="new-task">
+<button id="add">Add</button>
+<p id="first-item">
+  <input type="checkbox" class="checkboxes" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  First item<br>
+</p>
+<p id="second-item">
+  <input type="checkbox" class="checkboxes" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  Second item<br>
+</p>
+<p id="third-item">
+  <input type="checkbox" class="checkboxes" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  Third item
+</p>
+</body>
+</html>
